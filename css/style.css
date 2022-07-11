@@ -73,15 +73,13 @@ P {
 }
 
 .aspiration{
-    width: 410px;
+    max-width: 410px;
     padding-top: 20px;
 }
 
 .travel {
     padding-top: 15px;
 }
-
-
 
 .future {
     padding-top: 111px;
@@ -162,7 +160,7 @@ P {
     }
 
     .travel {
-        width: 70%;
+        width: 80%;
     }
 
     .profit {
@@ -211,4 +209,20 @@ P {
     .container {
         width: 90%;
     }
+    .offer {
+        margin-top: 60px;
+        width: 90%;;
+    }
+
+    .travel {
+        margin-top: 15px;
+    }
+    .input, .btn_form {
+        width: 280px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
 }
+
