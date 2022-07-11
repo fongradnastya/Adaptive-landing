@@ -1,0 +1,214 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(12, 10, 17);
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4,s h5, h6 {
+    font-weight: 700;
+    margin: 0px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 61px;
+    background: rgba(78,190,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+    color: white;
+    padding-bottom: 125px;
+}
+
+.button {
+    margin-top: 46px;
+    display: block;
+    text-decoration: none;
+    color: rgb(12, 10, 17);
+    background: #FFD429;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 22px 0;
+    width: 223px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background: #FFC329;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 37px;
+    max-width: 580px;
+}
+
+h1 span {
+    font-size: 59px;
+}
+
+P {
+    line-height: 1.6em;
+    letter-spacing: 0.32px;
+}
+
+.aspiration{
+    width: 410px;
+    padding-top: 20px;
+}
+
+.travel {
+    padding-top: 15px;
+}
+
+
+
+.future {
+    padding-top: 111px;
+    padding-bottom: 120px;
+}
+
+.section_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.profits {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.profit {
+    background: url(../img/clock.png) no-repeat center top;
+    padding-top: 120px;
+    margin-top: 60px;
+    width: 290px;
+}
+
+
+.profit_travel {
+    background: url(../img/palm.png) no-repeat center top;
+}
+
+.profit_value {
+    background: url(../img/rocket.png) no-repeat center top;
+}
+
+.order {
+    background: #ECF3F8;
+    padding-top: 109px;
+    padding-bottom: 102px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.input {
+    display: block;
+    margin: 0 auto;
+    width: 343px;
+    height: 48px;
+    margin-bottom: 16px;
+    border: 1px solid #BBBBBB;
+    padding-left: 23px;
+}
+
+.btn_form {
+    margin: 0 auto;
+    border: 0;
+    width: 343px;
+    height: 56px;
+}
+
+.footer {
+    background: #164D7A;
+    color: white;
+    padding: 60px 0;
+}
+
+.credits {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .travel {
+        width: 70%;
+    }
+
+    .profit {
+        flex-basis: 33%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .offer {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .travel {
+        width: 90%;
+    }
+
+    .offer {
+        margin-top: 10px;
+    }
+
+    .profits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profit {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
